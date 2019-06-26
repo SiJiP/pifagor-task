@@ -1,0 +1,33 @@
+#container{
+    display: table;
+    border-collapse: collapse;
+}
+#container2{
+    display: table;
+    border-collapse: collapse;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.main-cell{
+    background-color: green;
+}
+
+.under-cell{
+    background-color: aqua;
+}
+
+.over-cell{
+    background-color: yellow;
+}
